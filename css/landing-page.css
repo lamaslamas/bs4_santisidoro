@@ -8,6 +8,13 @@
 	height: auto;
 	vertical-align: baseline;
 }
+@media (max-width:760px){
+#logo {
+	width: 2em;
+	height: auto;
+	vertical-align: baseline;
+}
+}
 
 .btn-primary {
 	background-color: #7cdaff;
