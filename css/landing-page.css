@@ -2,17 +2,30 @@
 	font-size: 5em;
 }
 
+
+#logo {
+	width: 3em;
+	height: auto;
+	vertical-align: baseline;
+}
+
 .btn-primary {
 	background-color: #7cdaff;
 	border-color: #7cdaff;
 }
 
+.btn-primary:hover {
+	color: #fff;
+	background-color: #0088b2;
+	border-color: #0088b2;
+}
+
 .text-primary {
-	color: #7cdaff !important;
+	color: #0088b2 !important;
 }
 
 a {
-	color: #2dbcf5;
+	color: #0088b2;
 }
 
 body {
@@ -29,7 +42,7 @@ body {
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-	color: #007bff;
+	color: #0088b2;
 }
 
 h1,
